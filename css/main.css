@@ -26,10 +26,13 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
-/* 전체영역 */
+/* 공통영역 */
 
 .inner{
   width: 100%;
   max-width: 1200px;
   margin: auto;
+}
+.wrap{
+
 }
