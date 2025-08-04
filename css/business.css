@@ -1,1 +1,113 @@
 @charset "utf-8";
+/* 비즈니스 상단 */
+.business-top {
+  padding: 100px 0;
+  text-align: center;
+}
+.business-title {
+  font-size: 44px;
+  position: relative;
+  padding-bottom: 25px;
+  line-height: 1.1;
+}
+.business-title::after {
+  position: absolute;
+  left: 49%;
+  bottom: 0px;
+  width: 37px;
+  height: 4px;
+  background-color: #ff0000;
+  content: "";
+}
+.business-dscr {
+  color: #777;
+  margin-top: 25px;
+}
+
+/* 비즈니스 하단 */
+
+.business-bottom {
+  padding: 80px 0;
+}
+.business-list {
+  display: flex;
+  width: 100%;
+  height: 420px;
+  background-color: #ddd;
+}
+.business-list > li {
+  width: 240px;
+  text-align: center;
+  cursor: pointer;
+}
+.business-list > li > a {
+  display: block;
+  
+}
+.business-list .img-area {
+    position: relative;
+  display: block;
+  width: 100%;
+  height: 420px;
+  background: url("../images/img_business.png") no-repeat;
+}
+.business-list .list1 .img-area {
+  background-position: 0px 0px;
+}
+.business-list .list2 .img-area {
+  background-position: -240px 0px;
+}
+.business-list .list3 .img-area {
+  background-position: -480px 0px;
+}
+.business-list .list4 .img-area {
+  background-position: -720px 0px;
+}
+.business-list .list5 .img-area {
+  background-position: -960px 0px;
+}
+
+.img-area .txt {
+  color: #fff;
+  font-size: 24px;
+  padding-top: 98px;
+}
+.hover-area {
+  width: 240px;
+  height: 420px;
+  position: absolute;
+  left: 0px;
+  top: 0;
+  /* background-color: #ddd; */
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+.icon{
+    width: 130px;
+    height: 112px;
+    display: block;
+    background: url("../images/bg_common.png") no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.business-list .list1 .icon{
+    background-position: -169px 0px;
+}
+.business-list .list2 .icon{
+    background-position: -298px 0px;
+}
+.business-list .list3 .icon{
+    background-position: 0px -117px;
+}
+.business-list .list4 .icon{
+    background-position: -139px -122px;
+}
+.business-list .list5 .icon{
+    background-position: -274px -115px;
+}
+.hover-area:hover{
+    background-color: #ff7d26;
+    opacity: 1;
+}
