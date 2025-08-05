@@ -51,29 +51,29 @@
 .about-bottom {
   padding-top: 100px;
 }
-.icon{
+.about-icon{
     display: flex;
     position: relative;
     width: 100%;
     justify-content: center;
     gap: 200px;
 }
-.icon a{
+.about-icon a{
     width: 102.99px;
     height: 107.99px;
     display: block;
     background: url("../images/bg_icon.png") no-repeat;
 }
-.icon li:nth-child(1) a{
+.about-icon li:nth-child(1) a{
     background-position: 0 0;
 }
-.icon li:nth-child(2) a{
+.about-icon li:nth-child(2) a{
     background-position: -116px 0;
 }
-.icon li:nth-child(3) a{
+.about-icon li:nth-child(3) a{
     background-position: -230px 0;
 }
-.icon span{
+.about-icon span{
     display: block;
     padding-top: 130px; 
     font-size: 22px;
