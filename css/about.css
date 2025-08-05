@@ -1,1 +1,74 @@
 @charset "utf-8";
+.about {
+  padding: 100px 0;
+  width: 100%;
+  background-color: #fff;
+}
+/* 어바웃상단 */
+.about-top {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.about-txt {
+  width: 50%;
+  position: relative;
+}
+.about-txt::after {
+  position: absolute;
+  left: 0px;
+  top: 140px;
+  width: 37px;
+  height: 5px;
+  background: #ed1c24;
+  content: "";
+}
+.about-txt h3 {
+  font-size: 44px;
+  padding: 25px 0 40px 0;
+  color: #111;
+}
+.about-txt p {
+  padding: 0 0 0 100px;
+}
+.middle-txt {
+  font-size: 21px;
+  margin-bottom: 20px;
+  color: #111;
+  font-weight: 600;
+}
+.bottom-txt {
+  font-size: 15px;
+  color: #444;
+}
+.about-img {
+  width: 50%;
+}
+.about-img img {
+  width: 100%;
+}
+/* 어바웃하단 */
+.about-bottom {
+  padding-top: 100px;
+}
+.icon{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    gap: 200px;
+}
+.icon a{
+    width: 102.99px;
+    height: 107.99px;
+    display: block;
+    background: url("../images/bg_icon.png") no-repeat;
+}
+
+
+.icon span{
+    display: block;
+    padding-top: 130px;
+    font-size: 22px;
+    font-weight: 600;
+}

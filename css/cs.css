@@ -1,5 +1,6 @@
 @charset "utf-8";
 .customer-wrap{
+    background-color: #f8f8f8;
     padding: 60px 0 100px;
 }
 .customer-list{
@@ -7,7 +8,7 @@
     display: flex;
     gap: 100px;
     justify-content: center;
-    /* background-color: #ddd; */
+    background-color: #fff;
 }
 .customer-list a{
     display: block;
@@ -28,6 +29,9 @@
 .cs{
     display: flex;
     position: relative;
+}
+.cs{
+    margin: 0px 0px 0px 2px;
 }
 .customer-list img{
     display: block;

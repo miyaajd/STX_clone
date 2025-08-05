@@ -1,4 +1,8 @@
 @charset "utf-8";
+.business{
+  width: 100%;
+  background-color: #f8f8f8;
+}
 /* 비즈니스 상단 */
 .business-top {
   padding: 100px 0;

@@ -1,1 +1,23 @@
 @charset "utf-8";
+.footer{
+    width: 100%;
+    background-color: #4e4e4e;
+    margin-top: 50px;
+}
+.footer-wrap{
+    position: relative;
+    display: flex;
+    padding: 50px 0;
+}
+.footer-logo{
+
+}
+.footer-txt{
+    color: #c3c3c3;
+    font-size: 13px;
+    padding-left: 135px;
+    line-height: 24px;
+}
+address{
+    font-style: normal;
+}
