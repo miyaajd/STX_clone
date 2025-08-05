@@ -64,11 +64,19 @@
     display: block;
     background: url("../images/bg_icon.png") no-repeat;
 }
-
-
+.icon li:nth-child(1) a{
+    background-position: 0 0;
+}
+.icon li:nth-child(2) a{
+    background-position: -116px 0;
+}
+.icon li:nth-child(3) a{
+    background-position: -230px 0;
+}
 .icon span{
     display: block;
-    padding-top: 130px;
+    padding-top: 130px; 
     font-size: 22px;
     font-weight: 600;
+    text-align: center;
 }
