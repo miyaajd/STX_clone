@@ -1,1 +1,39 @@
 @charset "utf-8";
+.customer-wrap{
+    padding: 60px 0 100px;
+}
+.customer-list{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    /* background-color: #ddd; */
+}
+.customer-list a{
+    display: block;
+    color: #444;
+    padding: 40px 56px;
+}
+.customer-list h3{
+    font-size: 30px;
+}
+.customer-list p{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.customer-list li{
+    width: 50%;
+}
+.faq,
+.cs{
+    display: flex;
+    position: relative;
+}
+.customer-list img{
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
