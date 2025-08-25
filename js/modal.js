@@ -5,4 +5,6 @@ window.addEventListener("load", function(){
     close.addEventListener("click",()=>{
         modal.style.display = "none"
     })
+    // visual Btn 활성화
+    
 })

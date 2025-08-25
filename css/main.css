@@ -26,7 +26,9 @@ a {
 body {
   font-family: "Noto Sans", sans-serif;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /* 공통영역 */
 
 .inner{

@@ -22,7 +22,7 @@
   justify-content: space-between;
   text-align: center;
   border-radius: 30px;
-  padding:150px 0 30px ;
+  padding: 150px 0 30px;
 }
 .modalLogo {
   position: absolute;
@@ -35,22 +35,72 @@
   border: 6px solid #fff;
   background: url(../images/chat-btn.png) no-repeat center #fff;
 }
-.modalNotice{
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1.7;
+.modalNotice {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7;
 }
-.modalNotice strong{
-    color: #ff0000;
-    background: linear-gradient(to top , rgb(255, 210, 210) 50% , transparent 50%);
+.modalNotice strong {
+  color: #ff0000;
+  background: linear-gradient(to top, rgb(255, 210, 210) 50%, transparent 50%);
 }
-.modalNotice span{
-    font-size: 1rem;
-    font-weight: 300;
+.modalNotice span {
+  font-size: 1rem;
+  font-weight: 300;
 }
-.modalClose{
-    cursor: pointer;
+.modalClose {
+  cursor: pointer;
 }
-.modalClose i{
-    text-decoration: underline;
+.modalClose i {
+  text-decoration: underline;
+}
+/* Quick */
+.quick {
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+#chat span {
+  position: absolute;
+  background-color: #fff;
+  top: 34px;
+  left: -180px;
+  padding: 8px 10px;
+  border-radius: 23px;
+  text-align: center;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+#chat:hover span {
+  opacity: 1;
+  visibility: visible;
+}
+#shop {
+  position: relative;
+  display: block;
+  width: 55px;
+  line-height: 55px;
+  border-radius: 50%;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  box-shadow: 0px 3px 7px 0 rgb(0, 0, 0, 0.3);
+}
+#goTop {
+  width: 55px;
+  line-height: 55px;
+  border-radius: 50%;
+  background-color: #ed1c24;
+  text-align: center;
+  box-shadow: 0px 3px 7px 0 rgb(0, 0, 0, 0.3);
+  font-weight: 500;
+  color: #fff;
 }
