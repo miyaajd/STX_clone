@@ -10,8 +10,14 @@ window.addEventListener("load", function () {
   this.window.addEventListener("scroll", () => {
     if (this.document.documentElement.scrollTop > 1000) {
       goTop.style.display = "block";
-    }else{
-        goTop.style.display = "none";
+    } else {
+      goTop.style.display = "none";
     }
+  });
+  goTop.addEventListener("click", () => {
+    this.window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   });
 });
