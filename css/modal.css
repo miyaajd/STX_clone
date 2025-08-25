@@ -70,7 +70,7 @@
   background-color: #fff;
   top: 34px;
   left: -180px;
-  padding: 8px 10px;
+  padding: 8px 15px;
   border-radius: 23px;
   text-align: center;
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2);
@@ -103,4 +103,5 @@
   box-shadow: 0px 3px 7px 0 rgb(0, 0, 0, 0.3);
   font-weight: 500;
   color: #fff;
+  display: none;
 }
